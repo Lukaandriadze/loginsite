@@ -1,0 +1,72 @@
+body {
+    background-color: #b2b2b2;
+    margin: 0;
+    padding: 0;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+*, before, *, after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    background-color: #1e90ff; /* Changed background color */
+    padding: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-family: "Roboto Mono", monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.btn {
+    margin: 0;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background: #0080ff; /* Changed background color */
+    width: 100px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}

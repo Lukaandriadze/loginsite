@@ -1,0 +1,55 @@
+.inputname{
+    text-align: center;
+}
+.inputpassword{
+    text-align: center;
+}
+.btn1{
+    margin:0;
+    height:4vh;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    text-decoration:none;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 100px;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.btn1:hover, .btn:focus, .btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+.forgot {
+    text-align: -webkit-center;
+    margin:1px;
+    color: #7a7a7a;
+}
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+.register {
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #b2b2b2;
+        margin:0;
+    padding:0;
+    height:45vh;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}

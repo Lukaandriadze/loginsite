@@ -1,0 +1,45 @@
+body {
+    background-color: #b2b2b2;
+        margin:0;
+    padding:0;
+    height:45vh;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+.inputmail, .surname {
+    text-align: center;
+}
+
+.btn {
+    margin:0;
+    height:4vh;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    text-decoration:none;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 100px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
